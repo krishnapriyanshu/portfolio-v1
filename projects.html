@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Priyanshu Sharma</title>
+  <meta name="description" content="A comprehensive collection of my ventures, case studies, and creative experiments." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=DM+Mono:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" id="nav-logo" aria-label="Home">
+        <span class="logo-hat" title="🏴‍☠️ Still sailing…">
+          <svg width="28" height="28" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <!-- Straw hat brim -->
+            <ellipse cx="32" cy="18" rx="26" ry="5" stroke="currentColor" stroke-width="2.2" fill="none"/>
+            <!-- Hat dome -->
+            <path d="M14 18 Q16 8 32 7 Q48 8 50 18" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+            <!-- Hat band -->
+            <path d="M16 17 Q32 13 48 17" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <!-- Skull -->
+            <ellipse cx="32" cy="33" rx="11" ry="10" stroke="currentColor" stroke-width="2.2" fill="none"/>
+            <!-- Eye sockets -->
+            <ellipse cx="27.5" cy="32" rx="2.8" ry="3" fill="currentColor"/>
+            <ellipse cx="36.5" cy="32" rx="2.8" ry="3" fill="currentColor"/>
+            <!-- Nose -->
+            <path d="M31 37 L32 39 L33 37" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <!-- Teeth -->
+            <path d="M27 41 L27 43 M30 41.5 L30 43.5 M34 41.5 L34 43.5 M37 41 L37 43" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M25 41 Q32 44 39 41" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <!-- Crossbones -->
+            <line x1="10" y1="50" x2="22" y2="58" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            <line x1="10" y1="58" x2="22" y2="50" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            <line x1="42" y1="50" x2="54" y2="58" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            <line x1="42" y1="58" x2="54" y2="50" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="logo-text">PS</span>
+      </a>
+      <button class="nav-menu-btn" id="menuBtn" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html#about" class="nav-link">About</a></li>
+        <li><a href="index.html#what-i-do" class="nav-link">Skills</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="index.html#journey" class="nav-link">Journey</a></li>
+        <li><a href="index.html#contact" class="nav-link nav-link-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ======================== PROJECTS PAGE ======================== -->
+  <section class="projects section" id="projects-page" style="padding-top: 150px; min-height: 80vh;">
+    <div class="container">
+      <div class="section-tag reveal">— Archive</div>
+      <h1 class="section-title reveal">All Projects</h1>
+      <p class="journey-sub reveal" style="margin-bottom: 3rem;">A comprehensive list of my ventures, case studies, and creative works.</p>
+
+      <div class="projects-grid">
+        <div class="project-card reveal reveal-delay-2" data-cat="SaaS">
+          <div class="project-card-inner">
+            <div class="project-num">01</div>
+            <div class="project-cat">SaaS · AI Dashboard</div>
+            <h3 class="project-title">Product Feedback Intelligent</h3>
+            <p class="project-desc">An AI-powered feedback dashboard with a premium glassmorphism UI. It automatically analyzes product feedback, generates robust PDF reports, and uses a serverless backend for seamless deployment.</p>
+            <div class="project-tags"><span>AI Agent</span><span>Dashboard</span><span>SaaS</span><span>React</span></div>
+          </div>
+          <a href="https://product-feedback-agent-gz7c.vercel.app/" target="_blank" rel="noopener" class="project-arrow">→</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-name">Priyanshu Sharma 🏴‍☠️</span>
+        <span class="footer-copy">The One Piece is Real · Built with ♥ · 2025</span>
+        <a href="#projects-page" class="footer-top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
